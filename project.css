@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+.img{
+position: relative;
+background-image: url(Image/main.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 90%;
+height: 65vh;
+box-sizing: border-box;
+margin-left: 5%;
+border-radius: 10px;
+text-align: center;
+padding: 90px;
+box-shadow: 0 5px 7px #87a2a3;
+}
+h1 a{
+    text-decoration: none;
+}
+h4{
+    padding: 10px;
+    color: #f3f3f3;
+    text-transform: uppercase;
+    font-size: large;
+    text-align: center;
+    margin-left: 10%;
+    font-family: Verdana;
+    margin-top: 0;
+    
+}
+.p-main{
+    padding: 10px;
+    color: white;
+    text-align: justify;
+
+}
+.p2-main{
+    color: white;
+    text-align: justify;
+    padding-top: 0;
+    padding-left: 10px;
+}
+.button{
+    padding: 25px;
+    margin-top: 40px;
+    background-color: #dfe4ea;
+    border: 1.5px solid #9c88ff;
+    border-radius: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #192a56;
+    color: #f8f8fb;
+    padding: 25px;
+    transition: 0.5s ease;
+    border: 1.5px #192a56;
+    box-shadow: 0 3px 4px #364364;
+}
+.stick{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+}
+.div-main{
+    padding: 5px;
+    
+}
+.div-main ul li{
+    margin-top: 30px;
+    margin-left: 15%;
+    list-style-type: square;
+    font-size: larger;
+    font-style: italic;
+    font-weight: light;
+    color: #151414;
+
+}
+.h2{
+    border-bottom: 5px solid #e84118;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 100%;
+    color: #192a56;
+    margin-left: 15%;
+}
+.div-rox{
+    justify-content: end;
+    margin-left: 305px;
+    
+    
+}
+.div-rox ul li{
+    margin-top: 30px;
+    list-style-type: square;
+    font-size: larger;
+    font-style: italic;
+    font-weight: light;
+    color: #151414;
+}
+footer{
+    
+    background-color:#636e72;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    color: black;
+    
+}
+footer div a{
+   text-decoration: none;
+   color: aliceblue;  
+}
+footer div i:hover{
+    background-color: #e84118;
+    border-radius: 50px;
+}
+.nav-div{
+    
+    color: rgb(15, 4, 24); 
+    font-size: larger;
+}
+.nav-div ul li a:hover{
+    color: #d63031;
+}
+.purchase{
+    text-align: center;
+}
+.purchase div a{
+    text-decoration: none;
+    color: #151414;
+ 
+}
+.purchase div a:hover{
+    color: red;
+}

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-2</title>
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+    <link rel="stylesheet" href="project.css">
+    <link rel="shortcut icon" href="Image/Pjct.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+   <div>
+
+     <!--Heading-->
+     <header class="col-12">
+        <div class="col-12 bg-light py-2">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary col-10 mx-auto">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img src="Image/Pjct.jpg" alt="Bootstrap" width="45" height="34" class="rounded-pill">
+                      </a>
+                    </div>
+                  </nav>
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#" style="font-size: 28px; font-weight: bold;">Rox<span style="color: crimson;">xon</span></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="project2.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="form.html">Sign Up</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">PC Build up</a></li>
+                          <li><a class="dropdown-item" href="#">Computer Servicing</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Know More</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-disabled="false" href="#">About us</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                                                <!-- Button trigger modal -->
+                                              <button type="button" class="btn btn-primary ms-4 mx-5 my-1 px-5 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                      Contact us
+                                              </button>
+
+                                              <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Info</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+
+                                                        <!--form-->
+
+                                                                  <form>
+                                                                    <div class="row mb-3">
+                                                                      <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+                                                                      <div class="col-sm-10">
+                                                                        <input type="text" class="form-control" id="inputName3" required>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                                                      <div class="col-sm-10">
+                                                                        <input type="email" class="form-control" id="inputEmail3" required>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                                                      <div class="col-sm-10">
+                                                                        <input type="password" class="form-control" id="inputPassword3" required>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                      <label for="inputNumber3" class="col-sm-2 col-form-label">Phone</label>
+                                                                      <div class="col-sm-10">
+                                                                        <input type="text" class="form-control" id="inputNumber3" required>
+                                                                      </div>
+                                                                    </div>
+                                                                    <fieldset class="row mb-3">
+                                                                      <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                                                                      <div class="col-sm-10">
+                                                                        <div class="form-check">
+                                                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                                          <label class="form-check-label" for="gridRadios1">
+                                                                            Male
+                                                                          </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                                          <label class="form-check-label" for="gridRadios2">
+                                                                            Female
+                                                                          </label>
+                                                                        </div>
+                                                                      </div>
+                                                                    </fieldset>
+                                                                    <div class="row mb-3">
+                                                                      <div class="col-sm-10 offset-sm-2">
+                                                                        <div class="form-check">
+                                                                          <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                          <label class="form-check-label" for="gridCheck1">
+                                                                            Remember Me
+                                                                          </label>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <button type="submit" class="btn btn-primary">Join</button>
+                                                                  </form>
+
+
+                                                      </div>
+                                                          <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save Info</button>
+                                                          </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+
+        <div class="py-5 mx-auto">
+            <div class="nav-div">
+                
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" aria-current="page" href="#purchase">Purchase</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#offer" class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="others.html" class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;">What's New</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-disabled="false" href="#" class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;">
+                    
+                                                    
+                                                      <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-warning ms-0 mx-3 my-1 px-5 py-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                FAQ's
+                              </button>
+
+                              <!-- Modal -->
+                              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="staticBackdropLabel">FAQ's</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      
+                                            <section>
+
+                                              <div class="accordion pt-2" id="accordionExample">
+                                                <div class="accordion-item">
+                                                  <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                      Q. How much it cost to build a pc?
+                                                    </button>
+                                                  </h2>
+                                                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                      <strong>Answer:</strong> It depends on how you want to build your computer. If you want to build a pc for personal use, it cost much less than a gaming pc or a editing pc.  know more please <code>Contact us.</code>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                      Q. Do you guys take payment in installment?
+                                                    </button>
+                                                  </h2>
+                                                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                      <strong>Answer:</strong> Yes. We have this option of payment. To know more about it visit our store.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                      Q. What is the warranty system of ROXXON?
+                                                    </button>
+                                                  </h2>
+                                                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                      <strong>Answer:</strong> We give warranty of two year in all types of electronic items. All our members get 20% off for any kind of servicing. 
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+
+                                            </section>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary ms-0 mx-3 my-1 px-5 py-1" data-bs-dismiss="modal">Close</button>
+                                      <button type="button" class="btn btn-primary ms-0 mx-3 my-1 px-5 py-1">Got it</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                  
+                      </a>
+                    </li>
+                </ul> 
+            </div>   
+        </div>
+    </header>
+
+    <section class="col-12 py-5 px-5">
+
+        <div class="col-12 mx-auto">
+            <div class="img">
+                <h1>
+                    <a href="project.html"><span style="color: white;">ROX</span><span style="color: #eb3b5a">XON</span></a>
+                </h1>
+                <h4 style="color: aliceblue;">
+                    Collaborating with You to Shape the Future of Technology
+                </h4>
+                <p class="p-main">
+                    Roxxon was founded with a vision to revolutionize technology. We have consistently delivered cutting-edge solutions that empower businesses and individuals.
+                </p>
+                <p class="p2-main">
+                    Founded in 2004, Roxxon has been a leader in technology for 20 years.
+                </p>
+                <button class="button mx-5 my-5 px-5 py-2">
+                    Join Us
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="col-12 px-5 py-5">
+        <div class="col-10 mx-auto">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                          <h5 class="card-title">Premium Member</h5><i class="lni lni-crown-3"></i>
+                        </div>
+                          <p class="card-text">All our premium members get discount up to 30% in any purchase.<br>Don't miss the oppurtunity.</p>
+                          <a href="#" class="btn btn-primary">Membership</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                          <h5 class="card-title">Platinum Member</h5><i class="lni lni-crown-3"></i>
+                        </div>
+                          <p class="card-text">platinum members get 20% off in any type of servicing and up to 40% discount in any purchase.</p>
+                          <a href="#" class="btn btn-primary">Membership</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="col-10 d-flex py-2 mx-auto border border-info">
+        <div class="d-flex col-12 mx-auto">
+            <div class="div-main">
+                <h2 class="h2">
+                    What we offer?
+                </h2>
+                <ul class="div-main ul li">
+                    <li>Latest technologies.</li>
+                    <li>Free servicing for 2 years.</li>
+                    <li>Shipment within 4 to 7 working days.</li>
+                    <li>20% off to our premium members.</li>
+                </ul>
+            </div>
+
+            <div class="div-rox">
+                <h2 class="h2">
+                    Why ROX<span style="color: #eb3b5a">XON</span> ?
+                </h2>
+                <ul>
+                    <li>Our 24/7 Customer services.</li>
+                    <li>Availability throughout the country.</li>
+                    <li>Our easy to communicate system.</li>
+                    <li>We're providing all the latest technology throughout 20 years.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Purchase-->
+
+    <section class="col-12 py-1 pb-2 border-bottom border-danger" id="purchase">
+
+        <div class="col-12 py-4">
+            <div class=" col-4 d-flex py-2 mx-auto border-bottom" >
+                <h1>Build Your Own Dream.</h1>
+                <i class="lni lni-cart-1" style="color: rgb(128, 255, 0); font-size: 100px;"></i>
+            </div>
+        </div>
+
+    <div class="col-11 py-1 mx-auto purchase" style="display: flex;">
+        
+           <div class="bg-light col-2 md-1 border me-1" style="text-align: center; border-radius: 6px;">
+            <a href="phone.html">
+            <i class="lni lni-phone pt-4" style="font-size: xx-large;"></i>
+            <h4>
+                Phone
+            </h4>
+            </a>
+           </div>
+                
+           <div class="bg-light col-2 md-1 border me-1" style="text-align: center; border-radius: 6px;">
+            <a href="Laptop.html">
+            <i class="lni lni-laptop-phone pt-4" style="font-size: xx-large;"></i>
+            <h4>
+                Laptop
+            </h4>
+            </a>
+           </div>
+               
+           <div class="bg-light col-2 md-1 border me-1" style="text-align: center; border-radius: 6px;">
+            <a href="Computer.html">
+            <i class="lni lni-laptop-2 pt-4" style="font-size: xx-large;"></i>
+            <h4>
+                Computer
+            </h4>
+            </a>
+           </div>
+        
+           <div class="bg-light col-2 md-1 border me-1 p-1" style="text-align: center; border-radius: 6px;">
+            <a href="electronics.html">
+            <i class="lni lni-mouse-2 pt-4" style="font-size: xx-large;"></i>
+            <h4>
+                Electronics
+            </h4>
+            </a>
+           </div>
+       
+           <div class="bg-light col-2 md-1 border me-1" style="text-align: center; border-radius: 6px;">
+            <a href="instrument.html">
+            <i class="lni lni-music pt-4" style="font-size: xx-large;"></i>
+            <h4>
+                Instruments
+            </h4>
+            </a>
+           </div>
+
+           <div class="bg-light col-2 md-1 border" style="text-align: center; border-radius: 6px;">
+            <a href="others.html">
+            <i class="lni lni-cart-2 pt-4" style="font-size: xx-large;"></i>
+            <h4>
+                Others
+            </h4>
+            </a>
+           </div>
+    </div>
+
+
+    </section>
+
+    <!--OFFERS-->
+
+    <section id="offer" class="py-5 px-5 container d-flex border-bottom border-info">
+
+        <div class="col-4">
+            <div style="font-size: xx-large; color: red;">
+                <i class="lni lni-balloons mx-5 px-5" style="font-size: 80px; color: red;"></i>
+                <i class="lni lni-balloons" style="font-size: 80px;"></i>
+                <div class="text-primary">Offers Going On!!!!</div>
+                <div class="text-main text-opacity-75">Offers Going On!!!!</div>
+                <div class="text-main text-opacity-50">Offers Going On!!!!</div>
+            </div>
+        </div>
+        <div style="font-size: xx-large; color: gold;" class="col-4">
+            <i class="lni lni-balloons mx-5 px-5" style="font-size: 80px;"></i>
+            <i class="lni lni-balloons" style="font-size: 80px;"></i>
+            <div class="text-primary">Offers Going On!!!!</div>
+            <div class="text-main text-opacity-75">Offers Going On!!!!</div>
+            <div class="text-secondary text-opacity-50">Offers Going On!!!!</div>
+        </div>
+        <div style="font-size: xx-large; color: rgb(128, 255, 0);" class="col-4">
+            <i class="lni lni-balloons mx-5 px-5" style="font-size: 80px;"></i>
+            <i class="lni lni-balloons" style="font-size: 80px;"></i>
+            <div class="text-primary">Offers Going On!!!!</div>
+            <div class="text-main text-opacity-75">Offers Going On!!!!</div>
+            <div class="text-primary text-opacity-50">Offers Going On!!!!</div>
+        </div>
+    </section>
+
+    <section class="col-10 mx-auto py-1">
+
+        <div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <a href="phone.html" style="text-decoration: none; color: rgb(2, 44, 2);">
+                        <img src="Image/phone.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: rgb(255, 0, 0);">Offer on Android!!!</h5>
+                          <p class="card-text">30% offer going on all kind of Android devices. Grab it when you can. Offer ending soon.</p>
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col" >
+                      <div class="card">
+                        <a href="electronics.html" style="text-decoration: none; color: rgb(2, 44, 2);">
+                        <img src="Image/android tab.jpg" style="height: 275px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: rgb(255, 1, 1);">Offer on Electronics!!!</h5>
+                          <p class="card-text">10% price drop on all kind of electronic items. Offer will be available till end of 2024. Make this Christmas Memorable.</p>
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <a href="Laptop.html" style="text-decoration: none; color: rgb(2, 44, 2);">
+                        <img src="Image/hp.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: rgb(255, 0, 0);">Price Drop on Laptop!!!</h5>
+                          <p class="card-text">This winter we're giving a whooping 5-8% discount on Laptops. Grab this oppurtunity as fast you can.</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col mx-auto">
+                      <div class="card">
+                        <a href="Computer.html" style="text-decoration: none; color: rgb(2, 44, 2);">
+                        <img src="Image/pc core.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: rgb(255, 0, 0);">Huge Price Drop on PC Parts!!!</h5>
+                          <p class="card-text">This winter we're giving 6% discount on any types of computer parts. Build your Own computer.</p>
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+    </section>
+
+    <section class="py-3 pt-5">
+      <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            
+            <li class="page-item"><a class="page-link" href="project.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="phone.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="Laptop.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="Computer.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="electronics.html">5</a></li>
+            <li class="page-item"><a class="page-link" href="instrument.html">6</a></li>
+            <li class="page-item">
+              <a class="page-link" href="others.html">Next</a>
+            </li>
+          </ul>
+        </nav>
+  </section>
+
+  <!--Footer-->
+    <footer class="col-12 py-4 px-5 mx-auto">
+       
+        <div>
+
+            <div>
+                ROX<span style="color: rgb(235, 59, 90)">XON</span>
+            </div>
+            
+            <div class="py-2">
+            <a href=""><i class="lni lni-facebook"></i></a>
+            <a href=""><i class="lni lni-facebook-messenger"></i></a>
+            <a href=""><i class="lni lni-instagram"></i></a>
+            <a href=""><i class="lni lni-x"></i></a>
+            </div>
+
+            <div class="py-0">
+                &copy; Copyright. <br> All Rights Reserved by ROXXON. <br>
+                Developed by Salman Farsy.
+            </div>
+        </div>
+        
+    </footer>
+
+   </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
